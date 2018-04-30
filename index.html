@@ -1,0 +1,277 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<title>Contaminación ambiental</title>
+
+<!--grupo CSS-->
+ <link rel="stylesheet" href="css/tema1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+ <!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script  src="js/jquery.mobile-1.4.5.min.js"></script>
+ <!--  <script src="js/acciones.js"</script> -->
+ <script src="phonegap.js"></script>
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/cambio_fauna.jpg','imagenes/enfermedad_personas.jpg')">
+
+ <div data-role="page" id="Principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1> Contaminación ambiental </h1>
+ </div>
+    <div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class=" ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2> Definicion </h2>
+    <p>¿Que es la contaminacion?</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Tipos de contaminación</h2>
+      <p>Se muestran los tipos de contaminacion</p>
+      </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Consecuencias</h2>
+       <p>Demostracion de las consecuencias</p>
+       </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Reciclaje</h2>
+      <p>¿que es y como se clasifica el reciclaje?</p>
+      </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Medidas para combatirla</h2>
+      <p>Muestra 5 medidas para combatirla </p>
+      </a>
+      </li>
+      </ul>
+   </div>
+      <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+       <img src="imagenes/hojas.png" width="46" height="46">
+       </div>
+       <div>
+       <h4>Aplicacion Cuatro</h4>
+       <h4>Eduardo Nolasco Perez</h4>
+       </div>
+   </div>
+</div> 
+       
+       <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>Definicion</h1>
+       </div>
+       <div data-role="content" align="center">
+       <div>
+       <h2>¿Que es la contaminación?</h2>
+       <p> Se entiende por contaminación la alteración del estado natural de un medio debido a la introducción en él de un agente que no pertenece a él o que sí que pertenece pero en proporciones mucho menores.<br> Por lo tanto, cuando estemos hablando de contaminación ambiental nos referiremos a la introducción en el medio ambiente de agentes que no pertenecían a él en proporciones tan altas.
+       <br>Se denomina contaminación ambiental cuando existe la presencia en el ambiente de cualquier agente físico, químico o biológico.<br> O bien cuando hay la combinación de varios de estos agentes en lugares, maneras y concentraciones que sean o puedan ser nocivos para la salud, la seguridad o para el bienestar de la población, o también que pudiera ser perjudicial para la vida vegetal o animal, o bien que impidan de las propiedades o lugares de recreación y goce de los mismos.</p>
+       <p align="center">Para saber mas acerca de la contaminación pulsa <a href="https://contaminacionambiental.net/contaminacion-ambiental/" target="_self"> AQUÍ</a></p>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sutitucion','','imagenes/enfermedad_personas.jpg',1)"><img src="imagenes/contaminacion_fabrica.jpg" width="50%" height="50%" id="sutitucion"></a> </div>
+       </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+       <img src="imagenes/hojas.png" width="46" height="46">
+       </div>
+       <h4>Aplicación Cuatro,NPE</h4>
+       </div>
+       </div>
+       
+       <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>Tipos de contaminación</h1>
+       </div>
+       <div data-role="content" align="center">
+       <div>
+       <h2>La contaminación del agua</h2>
+       <p>  La contaminación del agua es la modificación de las condiciones de la misma causada por el ser humano, volviéndola nociva para el ser humano, animales y plantas.<br>La contaminación del agua se puede definir de muchas maneras. Por lo general, significa que una o más sustancias se han acumulado en el agua hasta tal punto que causan problemas para los animales o las personas.<br> Océanos, lagos, ríos y otras aguas interiores pueden limpiar naturalmente una cierta cantidad de contaminación dispersándola inofensivamente.</p>
+       <p align="center">Para mas información pulsa <a href="https://contaminacionambiental.net/contaminacion-del-agua/" target="_self"> AQUÍ</a></p>
+       <img src="imagenes/contamimacion_agua.jpg" width="50%" height="50%">
+       <h2>contaminación del suelo</h2>
+       <p>La contaminación del suelo es una alteración del suelo por la presencia de sustancias químicas hechas por el hombre, se define como la presencia de sustancias químicas tóxicas (contaminantes) en el suelo, en concentraciones suficientemente altas como para representar un riesgo para la salud humana y / o el ecosistema.
+<br>Normalmente está contaminación es producida por la ruptura de tanques de almacenamiento subterráneo, uso de pesticidas y acomulacion directa de residuos industriales. Entre estos destacan los químicos como hidrocarburos de petróleo, solventes, pesticidas y otros metales pesados.</p>
+<p align="center">Para mas información pulsa <a href="https://contaminacionambiental.net/contaminacion-del-suelo/" target="_self"> AQUÍ</a></p>
+     <img src="imagenes/contaminacion_suelo.jpg" width="50%" height="50%">
+     <h2>contaminación atmosférica</h2>
+     <p>La contaminación atmosférica es la presencia en la atmósfera de determinadas sustancias perjudiciales para el ser humano y el resto de seres vivos.<br> Es un tipo de contaminación ambiental que afecta el aire que respiramos y dado el gran desarrollo de las industrias actuales cada vez se la hace más difícil frenarla.<br>La contaminación atmosférica procede de causas naturales, como la erupción de volcanes, pero sobretodo procede de las actividades de los seres humanos, como la industria y la quema de combustibles fósiles, como el carbón.<br>Cualquier actividad de las personas como quemar cosas (combustión), usar productos químicos domésticos o industriales (sustancias que causan reacciones químicas y liberar gases tóxicos en el proceso), o producir grandes cantidades de polvo tiene el potencial de causar contaminación del aire y por lo tanto de la atmósfera cuando se realiza en gran escala o muchas personas lo hacen.</p>
+     <p align="center">Para mas información pulsa <a href="https://contaminacionambiental.net/contaminacion-atmosferica/" target="_self">AQUÍ</a></p>
+     <img src="imagenes/contaminacion-aire.jpg" width="50%" height="50%">
+       </div>
+       </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+       <img src="imagenes/hojas.png" width="46" height="46">
+       </div>
+       <h4>Aplicación Cuatro,NPE</h4>
+       </div>
+       </div>
+      
+       
+      <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>Consecuencias</h1>
+       </div>
+       <div data-role="content" align="center">
+       <div>
+        <div data-role="main" class="ui-content">
+ <div data-role="collapsible" data-content-theme="false">
+ <h1>Esta es una muestra de lo que hace la contaminación en el ambiente</h1>
+   <div>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/cambio_climatico.jpg" alt="cambio_climatico" title="cambio_climatico" id="wows1_0"/></li>
+		<li><img src="data1/images/cambio_fauna.jpg" alt="cambio_fauna" title="cambio_fauna" id="wows1_1"/></li>
+		<li><img src="data1/images/cambio_flora.jpg" alt="cambio_flora" title="cambio_flora" id="wows1_2"/></li>
+		<li><img src="data1/images/cambio_suelo.jpg" alt="cambio_suelo" title="cambio_suelo" id="wows1_3"/></li>
+		<li><img src="data1/images/contamimacion_agua.jpg" alt="contamimacion_agua" title="contamimacion_agua" id="wows1_4"/></li>
+		<li><img src="data1/images/contaminacion_fabrica.jpg" alt="contaminacion_fabrica" title="contaminacion_fabrica" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/contaminacion_suelo.jpg" alt="slider" title="contaminacion_suelo" id="wows1_6"/></a></li>
+		<li><img src="data1/images/contaminacionaire.jpg" alt="contaminacion-aire" title="contaminacion-aire" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="cambio_climatico"><span><img src="data1/tooltips/cambio_climatico.jpg" alt="cambio_climatico"/>1</span></a>
+		<a href="#" title="cambio_fauna"><span><img src="data1/tooltips/cambio_fauna.jpg" alt="cambio_fauna"/>2</span></a>
+		<a href="#" title="cambio_flora"><span><img src="data1/tooltips/cambio_flora.jpg" alt="cambio_flora"/>3</span></a>
+		<a href="#" title="cambio_suelo"><span><img src="data1/tooltips/cambio_suelo.jpg" alt="cambio_suelo"/>4</span></a>
+		<a href="#" title="contamimacion_agua"><span><img src="data1/tooltips/contamimacion_agua.jpg" alt="contamimacion_agua"/>5</span></a>
+		<a href="#" title="contaminacion_fabrica"><span><img src="data1/tooltips/contaminacion_fabrica.jpg" alt="contaminacion_fabrica"/>6</span></a>
+		<a href="#" title="contaminacion_suelo"><span><img src="data1/tooltips/contaminacion_suelo.jpg" alt="contaminacion_suelo"/>7</span></a>
+		<a href="#" title="contaminacion-aire"><span><img src="data1/tooltips/contaminacionaire.jpg" alt="contaminacion-aire"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+     </div>
+    </div>
+  </div>
+   <h2>Consecuencias</h2>
+       <h3> Para las personas:</h3>20.000 personas mueren al año en España por culpa de la contaminación ambiental. Un dato clave para entender la magnitud del problema. Los gases contaminantes son tóxicos, y sus efectos en nuestra salud van de las irritaciones en ojos o vías respiratorias a las migrañas, fatigas o enfermedades cardiovasculares.
+       <br><img src="imagenes/enfermedad_personas.jpg" width="50%" height="50%">
+       <h3>En el cambio Climatico:</h3>El CO2 está presente en la atmósfera de forma natural, pero el gran aumento de emisiones y su concentración fruto de la quema de combustibles fósiles acentúa los efectos del efecto invernadero. La temperatura está subiendo y el cambio climático ya está aquí, con consecuencias dramáticas para las personas, aumentando la violencia de fenómenos meteorológicos como los huracanes o la sequía <br><img src="imagenes/cambio_climatico.jpg" width="50%" height="50%">
+       <h3>En el suelo:</h3>La contaminación de los suelos hace que la siembra sea imposible, lo que tiene un doble efecto. Por una parte, hay escasez de alimentos, y por la otra el clima se ve afectado debido a la ausencia de plantas. La deforestación es otro de los efectos de la contaminación de los suelos, ya que se gana terreno al bosque para reemplazar los terrenos perdidos. Los vertederos al aire libre o cementerios nucleares son buenos ejemplos de contaminación del suelo.<br><img src="imagenes/cambio_suelo.jpg" width="50%" height="50%">
+       <h3>En la Flora y fauna:</h3>Las plantas ven como la polución afecta su crecimiento, y muchas especies no han podido adaptarse a la escasez de lluvias, la contaminación del aire o el agua, etc., lo que ha supuesto su desaparición y la aceleración de la desertificación. En cuanto a los animales, muchas especies terrestres han visto alterado su hábitat por culpa de la contaminación ambiental, han perdido sus fuentes de alimentos, etc. En ocasiones son acciones hechas a propósito que han llevado a algunas especies al peligro de extinción.<br><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/cambio_fauna.jpg',1)"><img src="imagenes/cambio_flora.jpg" width="50%" height="50%" id="Image21"></a> </div>
+       </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+       <img src="imagenes/hojas.png" width="46" height="46">
+       </div>
+       <h4>Aplicación Cuatro,NPE</h4>
+       </div>
+       </div>
+      
+        <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>Reciclaje</h1>
+       </div>
+       <div data-role="content" align="center">
+       <div>
+       <h2>¿que es y como se clasifica el reciclaje?</h2>
+       <div data-role="main" class="ui-content">
+ <div data-role="collapsible" data-content-theme="false">
+ <h1>Imagen mas representativa del reciclaje</h1>
+  <div>
+  <p>Sin duda alguna es la famosa imagen acerca de las 3r</p>
+  <p>El reciclaje es un componente clave en la reducción de desechos contemporáneos y es el segundo componente de las 3R (Reducir, Reciclar y Reutilizar).</p>
+  </div>
+  <div>
+    <img src="imagenes/regla_de_las_tres_r.jpg" width="50%" height="50%">
+     </div>
+    </div>
+   </div>
+       <p>El reciclaje es un proceso cuyo objetivo es convertir desechos en nuevos productos o en materia para su posterior utilización.</p>
+       <h2>Como se clasifica</h2>
+       <h3>Bote rojo</h3>
+       <p>En éste se deben depositar todo tipo de envases ligeros como los envases de plásticos (botellas, tarrinas, bolsas, bandejas, etc.), de latas (bebidas, conservas, etc.)</p>
+       <h3>Bote azul</h3>
+       <p>En este contenedor se deben depositar los envases de cartón (cajas, bandejas, etc.), así como los periódicos, revistas, papeles de envolver, propaganda, etc. Es aconsejable plegar las cajas de manera que ocupen el mínimo espacio dentro del contenedor</p>
+       <h3>Bote Verde</h3>
+       <p>En este contenedor se depositan envases de vidrio.</p>
+       <h3>Bote amarillo</h3>
+       <p>En este contenedor se depositan envases de metal,al igual que latas u otros objetos sin utilidad que sean metalicos</p>
+       <img src="imagenes/clasificacion.jpg" width="50%" height="50%">
+       </div>
+       </div> 
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+       <img src="imagenes/hojas.png" width="46" height="46">
+       </div>
+       <h4>Aplicación Cuatro,NPE</h4>
+       </div>
+       </div> 
+
+        <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+       <h1>Medidas para combatirla</h1>
+       </div>
+       <div data-role="content" align="center">
+       <div>
+        <h1>Zonas afectadas en mi comunidad por la contaminacion</h1>
+        
+    <img src="imagenes/comunidad1.jpg" width="50%" height="50%">
+    <img src="imagenes/comunidad2.jpg" width="50%" height="50%">
+    <img src="imagenes/comunidad3.jpg" width="50%" height="50%">
+    <img src="imagenes/comunidad4.jpg" width="50%" height="50%">
+    <img src="imagenes/comunidad5.jpg" width="50%" height="50%">
+       
+       <h2>5 medidas para combatir la contaminacion en mi comunidad</h2>
+       <h3>Colocar botes de basura</h3>
+       <p>Esto con la finalidad de que la gente no tire la busara a las calles lo cual tapa las coladeras </p>
+       <h3>Barrer las calles</h3>
+       <p>Esto evitara tapar las coladeras de agua al igual que evitara enfermedades</p>
+       <h3>Separar la basura</h3>
+       <p>Con el fin de reutilizar todo lo posible</p>
+       <h3>Realizar juntas en la comunidad</h3>
+       <p>En estas se llevaran a cabo acuerdos para mejorar la comunidad</p>
+       <h3>Informar de la falta de carros recolectores de basura</h3>
+       <p>Para que el servicio de limpieza llegue puntual y asi evitar que se tire basura</p>
+       </div>
+       </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+       <img src="imagenes/hojas.png" width="46" height="46">
+       </div>
+       <h4>Aplicación Cuatro,NPE</h4>
+       </div>
+       </div>
+</body>
+</html>
